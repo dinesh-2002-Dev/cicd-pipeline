@@ -1,3 +1,5 @@
+FROM python:3.11-slim
+
 # Create a non-root user (IAM Least-Privilege best practice)
 RUN groupadd -r appgroup && useradd -r -g appgroup appuser
 
