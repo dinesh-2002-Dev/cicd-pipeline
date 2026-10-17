@@ -37,7 +37,7 @@ def home():
     """, 200
 
 @app.route("/health")
-def health()
+def health():
     return jsonify({"status": "healthy", "service": "webapp-cicd-demo"}), 200
 
 @app.route("/api/secure-data")
