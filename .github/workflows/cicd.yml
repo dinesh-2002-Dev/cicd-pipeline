@@ -28,7 +28,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Automated Pytest Suite
-        run: pytest -m pytest -v
+        run: pytest -v
 
   # STAGE 2: BUILD DOCKER CONTAINER & SECURITY SCAN
   build-and-scan:
