@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
+
 # Simulated IAM Role Tokens
 AUTHORIZED_TOKENS = {
     "Bearer admin-secret-123": "IAM-Admin",
