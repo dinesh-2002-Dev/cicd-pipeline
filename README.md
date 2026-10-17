@@ -1,5 +1,7 @@
 # Cloud & IAM DevSecOps Portal: CI/CD Pipeline
 
+[![Build, Test, and Deploy Web App](https://github.com/dinesh-2002-Dev/cicd-pipeline/actions/workflows/cicd.yml/badge.svg)](https://github.com/dinesh-2002-Dev/cicd-pipeline/actions/workflows/cicd.yml)
+
 A small Flask web application with an automated **test, build, scan, publish and deploy** pipeline built on **GitHub Actions** and **Docker**, deployed to **Render**.
 
 **Live demo:** https://cicd-pipeline-yfhq.onrender.com/
