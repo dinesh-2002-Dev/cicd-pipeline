@@ -1,5 +1,6 @@
 FROM python:3.11-slim
 
+LABEL org.opencontainers.image.source="https://github.com/dinesh-2002-Dev/cicd-pipeline"
 # Create a non-root user
 RUN groupadd -r appgroup && useradd -r -g appgroup appuser
 
